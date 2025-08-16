@@ -48,19 +48,14 @@ A **string** is a sequence of characters terminated by a null character (`'\0'`)
 
 ### ✅ Calculate Sum and Average of Marks
 
-1. **Start**  
-2. Declare an integer `n = 6`  
-3. Declare and initialize an array:  
-   `marks[n] = {100, 200, 300, 400, 500, 600}`  
-4. Set `key = 400` to search  
-5. Initialize `sum = 0`, `avg`  
-6. Loop `i` from 0 to `n-1`:  
-   - If `marks[i] == key`, print index and break  
-7. Loop `j` from 0 to `n-1`:  
-   - Add `marks[j]` to `sum`  
-8. Calculate average as `avg = sum / n`  
-9. Display `sum` and `avg`  
-10. **End**
+1. Input the number of elements `n`
+2. Declare an array `arr` of size `n`
+3. Input `n` elements into the array
+4. Initialize `sum = 0`
+5. Loop from `i = 0` to `i < n`
+   - Add `arr[i]` to `sum`
+6. Calculate `average = sum / n`
+7. Print `sum` and `average`
 
 ---
 
